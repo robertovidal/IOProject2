@@ -1,0 +1,2776 @@
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2021.5.11)  4 OCT 2021 17:41
+ restricted system commands enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/pablix/.texlive2017/texmf-var/luatex-cache/ge
+neric)(using read cache: /var/lib/texmf/luatex-cache/generic /home/pablix/.texli
+ve2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/pablix/.texlive2017/texmf-var/
+luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/pablix/.texlive2017/texmf-var/
+luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.112 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/pablix/.texlive2017/texm
+f-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/pablix/.te
+xlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc))
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./head.tex (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count87
+\c@Blindtext=\count88
+\c@blind@countparstart=\count89
+\blind@countxx=\count90
+\blindtext@numBlindtext=\count91
+\blind@countyy=\count92
+\c@blindlist=\count93
+\c@blindlistlevel=\count94
+\c@blindlist@level=\count95
+\blind@listitem=\count96
+\c@blind@listcount=\count97
+\c@blind@levelcount=\count98
+\blind@mathformula=\count99
+\blind@Mathformula=\count100
+\c@blind@randomcount=\count101
+\c@blind@randommax=\count102
+\c@blind@pangramcount=\count103
+\c@blind@pangrammax=\count104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/charter.sty
+Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\MT@toks=\toks17
+\MT@count=\count105
+LaTeX Info: Redefining \textls on input line 793.
+\MT@outer@kern=\dimen103
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
+\MT@listname@count=\count106
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def
+File: microtype-luatex.def 2018/01/14 v2.7a Definitions specific to luatex (RS)
+Lua module: microtype 2018/01/14 2.7a microtype module.
+LaTeX Info: Redefining \lsstyle on input line 679.
+LaTeX Info: Redefining \lslig on input line 679.
+\MT@outer@space=\skip43
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 113.
+\l@nohyphenation=\language3
+\l@swissgerman=\language4
+\l@hungarian=\language5
+\l@monogreek=\language6
+\l@farsi=\language7
+\l@bulgarian=\language8
+\l@portuguese=\language9
+\l@interlingua=\language10
+\l@romansh=\language11
+\l@turkmen=\language12
+\l@ngerman=\language13
+\l@catalan=\language14
+\l@hindi=\language15
+\l@thai=\language16
+\l@kannada=\language17
+\l@arabic=\language18
+\l@finnish=\language19
+\l@galician=\language20
+\l@swedish=\language21
+\l@icelandic=\language22
+\l@ibycus=\language23
+\l@german-x-2017-03-31=\language24
+\l@basque=\language25
+\l@pinyin=\language26
+\l@ethiopic=\language27
+\l@french=\language28
+\l@mongolianlmc=\language29
+\l@marathi=\language30
+\l@nynorsk=\language31
+\l@usenglishmax=\language32
+\l@serbian=\language33
+\l@indonesian=\language34
+\l@afrikaans=\language35
+\l@bokmal=\language36
+\l@irish=\language37
+\l@italian=\language38
+\l@friulan=\language39
+\l@gujarati=\language40
+\l@serbianc=\language41
+\l@romanian=\language42
+\l@panjabi=\language43
+\l@uppersorbian=\language44
+\l@coptic=\language45
+\l@telugu=\language46
+\l@latin=\language47
+\l@ancientgreek=\language48
+\l@liturgicallatin=\language49
+\l@tamil=\language50
+\l@belarusian=\language51
+\l@malayalam=\language52
+\l@sanskrit=\language53
+\l@occitan=\language54
+\l@mongolian=\language55
+\l@greek=\language56
+\l@polish=\language57
+\l@spanish=\language58
+\l@estonian=\language59
+\l@georgian=\language60
+\l@slovenian=\language61
+\l@croatian=\language62
+\l@lithuanian=\language63
+\l@esperanto=\language64
+\l@assamese=\language65
+\l@welsh=\language66
+\l@danish=\language67
+\l@czech=\language68
+\l@ngerman-x-2017-03-31=\language69
+\l@turkish=\language70
+\l@dutch=\language71
+\l@bengali=\language72
+\l@slovak=\language73
+\l@piedmontese=\language74
+\l@oriya=\language75
+\l@armenian=\language76
+\l@kurmanji=\language77
+\l@ukenglish=\language78
+\l@latvian=\language79
+\l@ukrainian=\language80
+\l@russian=\language81
+\l@churchslavonic=\language82
+\l@classiclatin=\language83
+\l@german=\language84
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count107
+\U@D=\dimen104
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def))
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2016/11/02 v2.9 German support for babel (new orthography)
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2016/11/02 v2.9 German support for babel (new orthography)
+Package babel Info: Making " an active character on input line 125.
+
+(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1996.
+tex UTF-8 German hyphenation patterns (reformed orthography)
+(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1996.
+tex
+German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2017-03-31
+ (WL)))))) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks18
+\thm@bodyfont=\toks19
+\thm@headfont=\toks20
+\thm@notefont=\toks21
+\thm@headpunct=\toks22
+\thm@preskip=\skip44
+\thm@postskip=\skip45
+\thm@headsep=\skip46
+\dth@everypar=\toks23
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen105
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count108
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count109
+\leftroot@=\count110
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count111
+\DOTSCASE@=\count112
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count113
+\c@MaxMatrixCols=\count114
+\dotsspace@=\muskip10
+\c@parentequation=\count115
+\dspbrk@lvl=\count116
+\tag@help=\toks25
+\row@=\count117
+\column@=\count118
+\maxfields@=\count119
+\andhelp@=\toks26
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks27
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count120
+\float@exts=\toks29
+\float@box=\box28
+\@float@everytoks=\toks30
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks31
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen114
+\Hy@linkcounter=\count121
+\Hy@pagecounter=\count122
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count123
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `final' set `true' on input line 4383.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count124
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen115
+\Fld@menulength=\count125
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count126
+\c@Item=\count127
+\c@Hfootnote=\count128
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2018/02/06 v6.86b Hyperref driver for luaTeX
+\Fld@listcount=\count129
+\c@bookmark@seq@number=\count130
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
+)
+\Hy@SectionHShift=\skip50
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen118
+\Gin@req@width=\dimen119
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count131
+\mult@box=\box30
+\multicol@leftmargin=\dimen120
+\c@unbalance=\count132
+\c@collectmore=\count133
+\doublecol@number=\count134
+\multicoltolerance=\count135
+\multicolpretolerance=\count136
+\full@width=\dimen121
+\page@free=\dimen122
+\premulticols=\dimen123
+\postmulticols=\dimen124
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box31
+\last@line=\box32
+\maxbalancingoverflow=\dimen125
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count137
+\c@finalcolumnbadness=\count138
+\last@try=\dimen126
+\multicolovershoot=\dimen127
+\multicolundershoot=\dimen128
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen129
+\extrarowheight=\dimen130
+\NC@list=\toks32
+\extratabsurround=\skip53
+\backup@length=\skip54
+)
+\everycr=\toks33
+\minrowclearance=\skip55
+)
+\rownum=\count140
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count141
+\rotFPtop=\skip56
+\rotFPbot=\skip57
+\rot@float@box=\box56
+\rot@mess@toks=\toks34
+)
+(/usr/share/texlive/texmf-dist/tex/latex/censor/censor.sty
+Package: censor 2013/06/24 3.21Provides capability for redaction of sensitive in
+formation
+
+(/usr/share/texlive/texmf-dist/tex/latex/pbox/pbox.sty
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count142
+\calc@Bcount=\count143
+\calc@Adimen=\dimen131
+\calc@Bdimen=\dimen132
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count144
+\calc@Cskip=\skip60
+)
+\pb@xlen=\skip61
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifnextok/ifnextok.sty
+Package: ifnextok 2011/06/27 v0.3 test next token (UL)
+)
+\censorruledepth=\skip62
+\censorruleheight=\skip63
+\periodrlap=\skip64
+\afterperiodlap=\skip65
+\lletterlap=\skip66
+\rletterlap=\skip67
+\afterspacelap=\skip68
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count145
+\lst@gtempboxa=\box57
+\lst@token=\toks35
+\lst@length=\count146
+\lst@currlwidth=\dimen133
+\lst@column=\count147
+\lst@pos=\count148
+\lst@lostspace=\dimen134
+\lst@width=\dimen135
+\lst@newlines=\count149
+\lst@lineno=\count150
+\lst@maxwidth=\dimen136
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count151
+\lst@skipnumbers=\count152
+\lst@framebox=\box58
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(./style/lstlisting.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pseudocode/pseudocode.sty
+** 
+** Document Style `pseudocode' - environment 
+** by D.L. Kreher and D.R. Stinson 
+** 
+** The pseudocode environment was originally developed for the book
+** Combinatorial Algorithms: Enumeration, Generation, and Search
+** CRC Press, 1999. 
+Package: pseudocode 
+\pcode@width=\skip69
+(/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box59
+\shadowsize=\dimen137
+\@Sbox=\box60
+\do@VerbBox=\toks36
+\the@fancyput=\toks37
+\this@fancyput=\toks38
+\EndVerbatimTokens=\toks39
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+)
+\c@pseudocode=\count153
+\c@pseudonum=\count154
+) (./style/avm.sty
+\avmdimen=\dimen138
+\avmboxone=\box61
+\avmboxthree=\box62
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen139
+\lightrulewidth=\dimen140
+\cmidrulewidth=\dimen141
+\belowrulesep=\dimen142
+\belowbottomsep=\dimen143
+\aboverulesep=\dimen144
+\abovetopsep=\dimen145
+\cmidrulesep=\dimen146
+\cmidrulekern=\dimen147
+\defaultaddspace=\dimen148
+\@cmidla=\count155
+\@cmidlb=\count156
+\@aboverulesep=\dimen149
+\@belowrulesep=\dimen150
+\@thisruleclass=\count157
+\@lastruleclass=\count158
+\@thisrulewidth=\dimen151
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks40
+\pgfutil@tempdima=\dimen152
+\pgfutil@tempdimb=\dimen153
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box63
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks43
+))
+\pgf@x=\dimen154
+\pgf@y=\dimen155
+\pgf@xa=\dimen156
+\pgf@ya=\dimen157
+\pgf@xb=\dimen158
+\pgf@yb=\dimen159
+\pgf@xc=\dimen160
+\pgf@yc=\dimen161
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count159
+\c@pgf@countb=\count160
+\c@pgf@countc=\count161
+\c@pgf@countd=\count162
+\t@pgf@toka=\toks44
+\t@pgf@tokb=\toks45
+\t@pgf@tokc=\toks46
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count163
+\pgfsyssoftpath@bigbuffer@items=\count164
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen162
+\pgfmath@count=\count165
+\pgfmath@box=\box64
+\pgfmath@toks=\toks47
+\pgfmath@stack@operand=\toks48
+\pgfmath@stack@operation=\toks49
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count166
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen163
+\pgf@picmaxx=\dimen164
+\pgf@picminy=\dimen165
+\pgf@picmaxy=\dimen166
+\pgf@pathminx=\dimen167
+\pgf@pathmaxx=\dimen168
+\pgf@pathminy=\dimen169
+\pgf@pathmaxy=\dimen170
+\pgf@xx=\dimen171
+\pgf@xy=\dimen172
+\pgf@yx=\dimen173
+\pgf@yy=\dimen174
+\pgf@zx=\dimen175
+\pgf@zy=\dimen176
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen177
+\pgf@path@lasty=\dimen178
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen179
+\pgf@shorten@start@additional=\dimen180
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box65
+\pgf@hbox=\box66
+\pgf@layerbox@main=\box67
+\pgf@picture@serial@count=\count167
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen181
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen182
+\pgf@pt@y=\dimen183
+\pgf@pt@temp=\dimen184
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen185
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen186
+\pgf@sys@shading@range@num=\count168
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box68
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box69
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen187
+\pgf@nodesepend=\dimen188
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen189
+\pgffor@skip=\dimen190
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count169
+\pgfplotmarksize=\dimen191
+)
+\tikz@lastx=\dimen192
+\tikz@lasty=\dimen193
+\tikz@lastxsaved=\dimen194
+\tikz@lastysaved=\dimen195
+\tikzleveldistance=\dimen196
+\tikzsiblingdistance=\dimen197
+\tikz@figbox=\box70
+\tikz@figbox@bg=\box71
+\tikz@tempbox=\box72
+\tikz@tempbox@bg=\box73
+\tikztreelevel=\count170
+\tikznumberofchildren=\count171
+\tikznumberofcurrentchild=\count172
+\tikz@fig@count=\count173
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count174
+\pgfmatrixcurrentcolumn=\count175
+\pgf@matrix@numberofcolumns=\count176
+)
+\tikz@expandcount=\count177
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/pgftree.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.tex
+\pgf@subpicminx=\dimen198
+\pgf@subpicminy=\dimen199
+\pgf@subpicmaxx=\dimen256
+\pgf@subpicmaxy=\dimen257
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/pgftree.tex
+\levelsep=\dimen258
+\subtreesep=\dimen259
+\smuggle@levelsep=\dimen260
+\smuggle@subtreesep=\dimen261
+\this@levelsep=\dimen262
+\this@subtreesep=\dimen263
+\pgftree@childx=\dimen264
+\pgftree@savechildx=\dimen265
+\pgftree@childy=\dimen266
+\pgftree@savechildy=\dimen267
+\pgftree@childi=\count178
+\pgftree@savechildi=\count179
+\pgftree@level=\count180
+\pgftree@depth=\dimen268
+\pgf@subpic@hbox@children=\box74
+\pgf@subpic@minx@children=\dimen269
+\pgf@subpic@miny@children=\dimen270
+\pgf@subpic@maxx@children=\dimen271
+\pgf@subpic@maxy@children=\dimen272
+\pgftree@lastchildx=\dimen273
+\pgftree@lastchildy=\dimen274
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.tex
+\@result=\toks52
+\child@list=\toks53
+\root@node=\toks54
+))
+(./style/btree.sty
+Package: style/btree 
+
+Document Style `weiw_BTree - Support drawing B+-Tree (ver 0.999)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen275
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box75
+\pgfnodeparttwobox=\box76
+\pgfnodepartthreebox=\box77
+\pgfnodepartfourbox=\box78
+\pgfnodeparttwentybox=\box79
+\pgfnodepartnineteenbox=\box80
+\pgfnodeparteighteenbox=\box81
+\pgfnodepartseventeenbox=\box82
+\pgfnodepartsixteenbox=\box83
+\pgfnodepartfifteenbox=\box84
+\pgfnodepartfourteenbox=\box85
+\pgfnodepartthirteenbox=\box86
+\pgfnodeparttwelvebox=\box87
+\pgfnodepartelevenbox=\box88
+\pgfnodeparttenbox=\box89
+\pgfnodepartninebox=\box90
+\pgfnodeparteightbox=\box91
+\pgfnodepartsevenbox=\box92
+\pgfnodepartsixbox=\box93
+\pgfnodepartfivebox=\box94
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen276
+\pgfdecoratedremainingdistance=\dimen277
+\pgfdecoratedinputsegmentcompleteddistance=\dimen278
+\pgfdecoratedinputsegmentremainingdistance=\dimen279
+\pgf@decorate@distancetomove=\dimen280
+\pgf@decorate@repeatstate=\count181
+\pgfdecorationsegmentamplitude=\dimen281
+\pgfdecorationsegmentlength=\dimen282
+)
+\tikz@lib@dec@box=\box95
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count182
+)
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count183
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write5
+\integerpart=\count184
+\decimalpart=\count185
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count186
+\c@listtotal=\count187
+\c@listcount=\count188
+\c@liststart=\count189
+\c@liststop=\count190
+\c@citecount=\count191
+\c@citetotal=\count192
+\c@multicitecount=\count193
+\c@multicitetotal=\count194
+\c@instcount=\count195
+\c@maxnames=\count196
+\c@minnames=\count197
+\c@maxitems=\count198
+\c@minitems=\count199
+\c@citecounter=\count266
+\c@savedcitecounter=\count267
+\c@uniquelist=\count268
+\c@uniquename=\count269
+\c@refsection=\count270
+\c@refsegment=\count271
+\c@maxextratitle=\count272
+\c@maxextratitleyear=\count273
+\c@maxextradate=\count274
+\c@maxextraalpha=\count275
+\c@abbrvpenalty=\count276
+\c@highnamepenalty=\count277
+\c@lownamepenalty=\count278
+\c@maxparens=\count279
+\c@parenlevel=\count280
+\blx@tempcnta=\count281
+\blx@tempcntb=\count282
+\blx@tempcntc=\count283
+\blx@maxsection=\count284
+\blx@maxsegment@0=\count285
+\blx@notetype=\count286
+\blx@parenlevel@text=\count287
+\blx@parenlevel@foot=\count288
+\blx@sectionciteorder@0=\count289
+\labelnumberwidth=\skip70
+\labelalphawidth=\skip71
+\biblabelsep=\skip72
+\bibitemsep=\skip73
+\bibnamesep=\skip74
+\bibinitsep=\skip75
+\bibparsep=\skip76
+\bibhang=\skip77
+\blx@bcfin=\read3
+\blx@bcfout=\write6
+\c@mincomprange=\count290
+\c@maxcomprange=\count291
+\c@mincompwidth=\count292
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count293
+\c@savedafterword=\count294
+\c@annotator=\count295
+\c@savedannotator=\count296
+\c@author=\count297
+\c@savedauthor=\count298
+\c@bookauthor=\count299
+\c@savedbookauthor=\count300
+\c@commentator=\count301
+\c@savedcommentator=\count302
+\c@editor=\count303
+\c@savededitor=\count304
+\c@editora=\count305
+\c@savededitora=\count306
+\c@editorb=\count307
+\c@savededitorb=\count308
+\c@editorc=\count309
+\c@savededitorc=\count310
+\c@foreword=\count311
+\c@savedforeword=\count312
+\c@holder=\count313
+\c@savedholder=\count314
+\c@introduction=\count315
+\c@savedintroduction=\count316
+\c@namea=\count317
+\c@savednamea=\count318
+\c@nameb=\count319
+\c@savednameb=\count320
+\c@namec=\count321
+\c@savednamec=\count322
+\c@translator=\count323
+\c@savedtranslator=\count324
+\c@shortauthor=\count325
+\c@savedshortauthor=\count326
+\c@shorteditor=\count327
+\c@savedshorteditor=\count328
+\c@labelname=\count329
+\c@savedlabelname=\count330
+\c@institution=\count331
+\c@savedinstitution=\count332
+\c@lista=\count333
+\c@savedlista=\count334
+\c@listb=\count335
+\c@savedlistb=\count336
+\c@listc=\count337
+\c@savedlistc=\count338
+\c@listd=\count339
+\c@savedlistd=\count340
+\c@liste=\count341
+\c@savedliste=\count342
+\c@listf=\count343
+\c@savedlistf=\count344
+\c@location=\count345
+\c@savedlocation=\count346
+\c@organization=\count347
+\c@savedorganization=\count348
+\c@origlocation=\count349
+\c@savedoriglocation=\count350
+\c@origpublisher=\count351
+\c@savedorigpublisher=\count352
+\c@publisher=\count353
+\c@savedpublisher=\count354
+\c@language=\count355
+\c@savedlanguage=\count356
+\c@origlanguage=\count357
+\c@savedoriglanguage=\count358
+\c@pageref=\count359
+\c@savedpageref=\count360
+\shorthandwidth=\skip78
+\shortjournalwidth=\skip79
+\shortserieswidth=\skip80
+\shorttitlewidth=\skip81
+\shortauthorwidth=\skip82
+\shorteditorwidth=\skip83
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count361
+\c@textcitetotal=\count362
+\c@textcitemaxnames=\count363
+\c@biburlnumpenalty=\count364
+\c@biburlucpenalty=\count365
+\c@biburllcpenalty=\count366
+\c@smartand=\count367
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count368
+\c@bbx:relatedtotal=\count369
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2018/02/11 v5.2c context-sensitive quotations (JAW)
+\csq@reset=\count370
+\csq@gtype=\count371
+\csq@glevel=\count372
+\csq@qlevel=\count373
+\csq@maxlvl=\count374
+\csq@tshold=\count375
+\csq@ltx@everypar=\toks55
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2018/02/11 v5.2c csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2017/12/24 v3.05
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks56
+\XKV@tempa@toks=\toks57
+)
+\XKV@depth=\count376
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count377
+))
+\c@padzeroesN=\count378
+\fc@tmpcatcode=\count379
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-ngerman.def
+File: fc-ngerman.def 2012/06/18
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-german.def
+File: fc-german.def 2016/01/12
+
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-germanb.def
+File: fc-germanb.def 2013/08/17
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-ngermanb.def
+File: fc-ngermanb.def 2013/08/17
+))
+\@DT@modctr=\count380
+\@ordinalctr=\count381
+\@orgargctr=\count382
+\@strctr=\count383
+\@tmpstrctr=\count384
+\@DT@loopN=\count385
+\@DT@X=\count386
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count387
+\@month=\count388
+\@year=\count389
+\c@HOUR=\count390
+\c@HOURXII=\count391
+\c@MINUTE=\count392
+\c@TOHOUR=\count393
+\c@TOMINUTE=\count394
+\c@SECOND=\count395
+\currenthour=\count396
+\currentminute=\count397
+\currentsecond=\count398
+Package datetime Info: No datetime.cfg file found, using default settings on inp
+ut line 308.
+\@dtctr=\count399
+\dayofyear=\count400
+\dayofweek=\count401
+LaTeX Info: Redefining \today on input line 736.
+
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/dt-ngerman.def
+File: dt-ngerman.def 2013/09/10
+LaTeX Info: Redefining \datengerman on input line 86.
+)
+\dt@a=\toks58
+\dt@b=\toks59
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip84
+\f@nch@O@elh=\skip85
+\f@nch@O@erh=\skip86
+\f@nch@O@olh=\skip87
+\f@nch@O@orh=\skip88
+\f@nch@O@elf=\skip89
+\f@nch@O@erf=\skip90
+\f@nch@O@olf=\skip91
+\f@nch@O@orf=\skip92
+)
+(/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count402
+\cp@tempcnt=\count403
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
+phs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2015/06/05 v3.0.1a (rcs-revision 1.44)
+\tikz@lib@auto@number=\count404
+\tikz@qnode@count=\count405
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/graphdrawing/tex/tikzlibrarygrap
+hdrawing.code.tex
+File: tikzlibrarygraphdrawing.code.tex 2013/08/05 v3.0.1a (rcs-revision 1.20)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrarygraph
+drawing.code.tex
+File: pgflibrarygraphdrawing.code.tex 2015/06/08 v3.0.1a (rcs-revision 1.39)
+\pgf@gd@parameter@stack@height=\count406
+\pgf@gd@node@box=\box96
+\pgf@gd@edge@box=\box97
+\pgf@gd@prekind@box=\box98
+\pgf@gd@postkind@box=\box99
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
+\pgfarrowinset=\dimen283
+\pgfarrowlength=\dimen284
+\pgfarrowwidth=\dimen285
+\pgfarrowlinewidth=\dimen286
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/02/21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/02/21 L3 programming layer (code)
+\ucharcat@table=\catcodetable5
+\c_max_int=\count407
+\l_tmpa_int=\count408
+\l_tmpb_int=\count409
+\g_tmpa_int=\count410
+\g_tmpb_int=\count411
+\g__intarray_font_int=\count412
+\g__prg_map_int=\count413
+\c_log_iow=\count414
+\l_iow_line_count_int=\count415
+\l__iow_line_target_int=\count416
+\l__iow_one_indent_int=\count417
+\l__iow_indent_int=\count418
+\c_zero_dim=\dimen287
+\c_max_dim=\dimen288
+\l_tmpa_dim=\dimen289
+\l_tmpb_dim=\dimen290
+\g_tmpa_dim=\dimen291
+\g_tmpb_dim=\dimen292
+\c_zero_skip=\skip93
+\c_max_skip=\skip94
+\l_tmpa_skip=\skip95
+\l_tmpb_skip=\skip96
+\g_tmpa_skip=\skip97
+\g_tmpb_skip=\skip98
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count419
+\c__fp_leading_shift_int=\count420
+\c__fp_middle_shift_int=\count421
+\c__fp_trailing_shift_int=\count422
+\c__fp_big_leading_shift_int=\count423
+\c__fp_big_middle_shift_int=\count424
+\c__fp_big_trailing_shift_int=\count425
+\c__fp_Bigg_leading_shift_int=\count426
+\c__fp_Bigg_middle_shift_int=\count427
+\c__fp_Bigg_trailing_shift_int=\count428
+\c__fp_rand_size_int=\count429
+\c__fp_rand_four_int=\count430
+\c__fp_rand_eight_int=\count431
+\l__sort_length_int=\count432
+\l__sort_min_int=\count433
+\l__sort_top_int=\count434
+\l__sort_max_int=\count435
+\l__sort_true_max_int=\count436
+\l__sort_block_int=\count437
+\l__sort_begin_int=\count438
+\l__sort_end_int=\count439
+\l__sort_A_int=\count440
+\l__sort_B_int=\count441
+\l__sort_C_int=\count442
+\l__tl_build_start_index_int=\count443
+\l__tl_build_index_int=\count444
+\l__tl_analysis_normal_int=\count445
+\l__tl_analysis_index_int=\count446
+\l__tl_analysis_nesting_int=\count447
+\l__tl_analysis_type_int=\count448
+\l__regex_internal_a_int=\count449
+\l__regex_internal_b_int=\count450
+\l__regex_internal_c_int=\count451
+\l__regex_balance_int=\count452
+\l__regex_group_level_int=\count453
+\l__regex_mode_int=\count454
+\c__regex_cs_in_class_mode_int=\count455
+\c__regex_cs_mode_int=\count456
+\l__regex_catcodes_int=\count457
+\l__regex_default_catcodes_int=\count458
+\c__regex_catcode_L_int=\count459
+\c__regex_catcode_O_int=\count460
+\c__regex_catcode_A_int=\count461
+\c__regex_all_catcodes_int=\count462
+\l__regex_show_lines_int=\count463
+\l__regex_min_state_int=\count464
+\l__regex_max_state_int=\count465
+\l__regex_left_state_int=\count466
+\l__regex_right_state_int=\count467
+\l__regex_capturing_group_int=\count468
+\l__regex_min_pos_int=\count469
+\l__regex_max_pos_int=\count470
+\l__regex_curr_pos_int=\count471
+\l__regex_start_pos_int=\count472
+\l__regex_success_pos_int=\count473
+\l__regex_curr_char_int=\count474
+\l__regex_curr_catcode_int=\count475
+\l__regex_last_char_int=\count476
+\l__regex_case_changed_char_int=\count477
+\l__regex_curr_state_int=\count478
+\l__regex_step_int=\count479
+\l__regex_min_active_int=\count480
+\l__regex_max_active_int=\count481
+\l__regex_replacement_csnames_int=\count482
+\l__regex_match_count_int=\count483
+\l__regex_min_submatch_int=\count484
+\l__regex_submatch_int=\count485
+\l__regex_zeroth_submatch_int=\count486
+\g__regex_trace_regex_int=\count487
+\c_empty_box=\box100
+\l_tmpa_box=\box101
+\l_tmpb_box=\box102
+\g_tmpa_box=\box103
+\g_tmpb_box=\box104
+\l__box_top_dim=\dimen293
+\l__box_bottom_dim=\dimen294
+\l__box_left_dim=\dimen295
+\l__box_right_dim=\dimen296
+\l__box_top_new_dim=\dimen297
+\l__box_bottom_new_dim=\dimen298
+\l__box_left_new_dim=\dimen299
+\l__box_right_new_dim=\dimen300
+\l__box_internal_box=\box105
+\l__coffin_internal_box=\box106
+\l__coffin_internal_dim=\dimen301
+\l__coffin_offset_x_dim=\dimen302
+\l__coffin_offset_y_dim=\dimen303
+\l__coffin_x_dim=\dimen304
+\l__coffin_y_dim=\dimen305
+\l__coffin_x_prime_dim=\dimen306
+\l__coffin_y_prime_dim=\dimen307
+\c_empty_coffin=\box107
+\l__coffin_aligned_coffin=\box108
+\l__coffin_aligned_internal_coffin=\box109
+\l_tmpa_coffin=\box110
+\l_tmpb_coffin=\box111
+\l__coffin_display_coffin=\box112
+\l__coffin_display_coord_coffin=\box113
+\l__coffin_display_pole_coffin=\box114
+\l__coffin_display_offset_dim=\dimen308
+\l__coffin_display_x_dim=\dimen309
+\l__coffin_display_y_dim=\dimen310
+\l__coffin_bounding_shift_dim=\dimen311
+\l__coffin_left_corner_dim=\dimen312
+\l__coffin_right_corner_dim=\dimen313
+\l__coffin_bottom_corner_dim=\dimen314
+\l__coffin_top_corner_dim=\dimen315
+\l__coffin_scaled_total_height_dim=\dimen316
+\l__coffin_scaled_width_dim=\dimen317
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count488
+\l__driver_tmp_box=\box115
+))
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count489
+\g__xparse_grabber_int=\count490
+\l__xparse_m_args_int=\count491
+\l__xparse_mandatory_args_int=\count492
+\l__xparse_v_nesting_int=\count493
+)
+Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2017/11/09 2.6g Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count494
+\l__fontspec_language_int=\count495
+\l__fontspec_strnum_int=\count496
+\l__fontspec_tmp_int=\count497
+\l__fontspec_em_int=\count498
+\l__fontspec_emdef_int=\count499
+\l__fontspec_strong_int=\count500
+\l__fontspec_strongdef_int=\count501
+\l__fontspec_tmpa_dim=\dimen318
+\l__fontspec_tmpb_dim=\dimen319
+\l__fontspec_tmpc_dim=\dimen320
+\g__file_internal_ior=\read4
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'O{}mO{}' on line 545.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 549.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 553.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 557.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 561.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 565.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 569.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 573.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 577.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 581.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 585.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 589.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 593.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeature with sig. 'm' on line 597.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 605.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 609.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newICUfeature with sig. 'mmm' on line 613.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 617.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 621.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 625.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 629.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 633.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 637.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3366.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingAccent with sig. 'mm' on line 3372.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingSymbol with sig. 'mm' on line 3378.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingComposite with sig. 'mmm' on line 3384.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3390.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3415.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareSymbol with sig. 'm' on line 3421.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareAccent with sig. 'm' on line 3427.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareCommand with sig. 'm' on line 3433.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareComposite with sig. 'mm' on line 3440.
+.................................................
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 3625.
+LaTeX Info: Redefining \slshape on input line 3630.
+LaTeX Info: Redefining \scshape on input line 3635.
+LaTeX Info: Redefining \upshape on input line 3640.
+LaTeX Info: Redefining \em on input line 3670.
+LaTeX Info: Redefining \emph on input line 3695.
+(load luc: /home/pablix/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lm
+romandemi10-regular.luc)(load luc: /home/pablix/.texlive2017/texmf-var/luatex-ca
+che/generic/fonts/otl/lmroman10-italic.luc)
+LaTeX Info: Redefining \- on input line 3749.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 3844.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 3848.
+.................................................
+))
+luaotfload | cache : Lookup cache loaded from /home/pablix/.texlive2017/texmf-va
+r/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: /home/pablix
+/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/texgyrepagella-regular.lu
+c)
+\g__fontspec_family_TeXGyrePagella_int=\count502
+(load luc: /home/pablix/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/te
+xgyrepagella-bolditalic.luc)(load luc: /home/pablix/.texlive2017/texmf-var/luate
+x-cache/generic/fonts/otl/texgyrepagella-bold.luc)(load luc: /home/pablix/.texli
+ve2017/texmf-var/luatex-cache/generic/fonts/otl/texgyrepagella-italic.luc)
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'TeXGyrePagella(0)' created for font 'TeX Gyre Pagella' with
+. options [Script=Default].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"TeXGyrePagella:mode=node;script=DFLT;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->"TeXGyrePagella:mode=node;script=DFLT;language=DFLT;+smcp;"
+. - 'bold' (b/n) with NFSS spec.:
+. <->"TeXGyrePagella/B:mode=node;script=DFLT;language=DFLT;"
+. - 'bold small caps'  (b/sc) with NFSS spec.:
+. <->"TeXGyrePagella/B:mode=node;script=DFLT;language=DFLT;+smcp;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->"TeXGyrePagella/I:mode=node;script=DFLT;language=DFLT;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->"TeXGyrePagella/I:mode=node;script=DFLT;language=DFLT;+smcp;"
+. - 'bold italic' (b/it) with NFSS spec.:
+. <->"TeXGyrePagella/BI:mode=node;script=DFLT;language=DFLT;"
+. - 'bold italic small caps'  (b/itsc) with NFSS spec.:
+. <->"TeXGyrePagella/BI:mode=node;script=DFLT;language=DFLT;+smcp;"
+.................................................
+)
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+ (./main.aux)
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Info: Redefining \microtypecontext on input line 3.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-PalatinoLinotype.cfg
+File: mt-PalatinoLinotype.cfg 2012/03/10 v1.0 microtype config. file: Palatino L
+inotype and similar fonts (LBD)
+)
+Package microtype Info: Character `ﬆ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬅ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‥' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‼' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⌐' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁰' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁴' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁵' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁶' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁷' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁸' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁹' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₀' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₁' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₂' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₃' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₄' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₅' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₆' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₇' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₈' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₉' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₊' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₋' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁺' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁻' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‒' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `―' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+\AtBeginShipoutBox=\box116
+Package hyperref Info: Link coloring ON on input line 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count503
+)
+LaTeX Info: Redefining \ref on input line 3.
+LaTeX Info: Redefining \pageref on input line 3.
+LaTeX Info: Redefining \nameref on input line 3.
+
+(./main.out) (./main.out)
+\@outlinefile=\write7
+
+\openout7 = main.out
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count504
+\scratchdimen=\dimen321
+\scratchbox=\box117
+\nofMPsegments=\count505
+\nofMParguments=\count506
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count507
+\MPscratchDim=\dimen322
+\MPnumerator=\count508
+\makeMPintoPDFobject=\count509
+\everyMPtoPDFconversion=\toks61
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+\c@lstlisting=\count510
+
+ABD: EveryShipout initializing macros
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout6 = main.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 3.
+Package biblatex Info: Reference segment=0 on input line 3.
+.................................................
+. fontspec info: "setup-math"
+. 
+. Adjusting the maths setup (use [no-math] to avoid this).
+.................................................
+\symlegacymaths=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 3.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 3.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 3.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 3.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 3.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 3.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 3.
+LaTeX Font Info:    Redeclaring math accent \check on input line 3.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 3.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 3.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 3.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 3.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 3.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TeXGyrePagella(0)/m/n on input line 3
+.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 3.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TeXGyrePagella(0)/m/n on input line 
+3.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TeXGyrePagella(0)/m/n --> TU/TeXGyrePagella(0)/m/n on
+ input line 3.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TeXGyrePagella(0)/m/it on input line
+ 3.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TeXGyrePagella(0)/b/n on input line 
+3.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 3.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 3.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TeXGyrePagella(0)/m/n --> TU/TeXGyrePagella(0)/b/n on
+ input line 3.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TeXGyrePagella(0)/b/it on input lin
+e 3.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 3.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 3.
+Package microtype Info: Character `ﬆ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬅ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‥' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‼' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⌐' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁰' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁴' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁵' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁶' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁷' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁸' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁹' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₀' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₁' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₂' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₃' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₄' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₅' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₆' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₇' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₈' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₉' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₊' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₋' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁺' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁻' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‒' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `―' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/8'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬆ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬅ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‥' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‼' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⌐' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁰' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁴' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁵' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁶' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁷' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁸' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁹' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₀' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₁' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₂' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₃' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₄' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₅' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₆' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₇' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₈' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₉' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₊' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₋' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁺' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁻' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‒' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `―' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/7'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬆ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬅ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‥' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‼' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⌐' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁰' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁴' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁵' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁶' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁷' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁸' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁹' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₀' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₁' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₂' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₃' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₄' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₅' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₆' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₇' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₈' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₉' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₊' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₋' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁺' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁻' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‒' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `―' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 18.
+
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
+RS)
+)
+Package microtype Info: Character `ﬆ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬅ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‥' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‼' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⌐' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁰' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁴' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁵' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁶' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁷' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁸' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁹' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₀' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₁' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₂' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₃' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₄' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₅' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₆' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₇' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₈' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₉' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₊' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₋' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁺' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁻' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‒' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `―' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬆ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬅ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‥' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‼' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⌐' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁰' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁴' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁵' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁶' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁷' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁸' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁹' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₀' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₁' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₂' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₃' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₄' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₅' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₆' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₇' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₈' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₉' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₊' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₋' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁺' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁻' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‒' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `―' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/m/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬆ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬅ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‥' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‼' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⌐' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁰' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁴' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁵' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁶' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁷' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁸' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁹' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₀' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₁' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₂' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₃' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₄' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₅' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₆' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₇' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₈' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₉' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₊' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₋' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁺' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁻' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‒' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `―' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 40.
+Package microtype Info: Character `ﬆ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ﬅ' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‥' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‼' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⌐' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁰' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁴' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁵' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁶' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁷' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁸' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁹' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₀' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₁' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₂' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₃' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₄' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₅' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₆' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₇' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₈' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₉' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₊' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₋' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁺' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⁻' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `‒' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `―' is missing
+(microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 58.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 58.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 76.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 76.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 94.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 3BBB7F3C649C455D8DD090AA11DEFA6C;256.
+Package logreq Info: Writing requests to 'main.run.xml'.
+
+\openout1 = main.run.xml
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 44489 strings out of 494480
+ 100000,1648299 words of node,token memory allocated
+ 622 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 7 attribute, 78 glue_spec, 7 attrib
+ute_list, 1 write nodes
+   avail lists: 1:8,2:770,3:76,4:31,5:160,6:893,7:656,8:217,9:221,10:4,11:92
+ 47077 multiletter control sequences out of 65536+600000
+ 56 fonts using 8729655 bytes
+ 64i,11n,71p,1088b,1633s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-bold.otf></usr/s
+hare/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-regular.otf>
+Output written on main.pdf (1 page, 14456 bytes).
+
+PDF statistics: 46 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 131072)
+ 40 words of extra memory for PDF output out of 10000 (max. 100000000)
+

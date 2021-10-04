@@ -1,0 +1,94 @@
+\documentclass[a4paper]{article}
+\input{head}
+\begin{document}
+
+%-------------------------------
+%	TITLE SECTION
+%-------------------------------
+
+\fancyhead[C]{}
+\hrule \medskip % Upper rule
+\begin{minipage}{0.295\textwidth} % Left side of title section
+\raggedright
+IO\\ % Your lecture or course
+\footnotesize % Authors text size
+\hfill\\
+Jose Pablo Fernández Cubillo, 2019047740 \\% Your name, your matriculation number
+Roberto Vidal Patiño, 2019065537% Your name, your matriculation number
+\end{minipage}
+\begin{minipage}{0.4\textwidth} % Center of title section
+\centering 
+\large % Title text size
+Proyecto 1\\ % Assignment title and number
+\normalsize % Subtitle text size
+Mochila Dinámica vs. MochilaGreedy\\ % Assignment subtitle
+\end{minipage}
+\begin{minipage}{0.295\textwidth} % Right side of title section
+\raggedleft
+\today\\ % Date
+\footnotesize % Email text size
+\hfill\\
+pablof5181@estudiantec.cr\\
+robertovidal@estudiantec.cr% Your email
+\end{minipage}
+\medskip\hrule % Lower rule
+\bigskip
+
+%-------------------------------
+%	CONTENTS
+%-------------------------------
+\section{Promedios de tiempo en milisegundos usando programación dinámica}
+
+\begin{table}[H]
+\centering
+\relax
+\resizebox{\textwidth}{!} {%
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+ \multicolumn{10}{|c|}{\textbf{Cantidad de llaves}} \\
+ \hline 
+0 & 10 & 20 & 30 & 40 & 50 & 60 & 70 & 80 & 90 \\
+\hline
+0.000004 & 0.000021 & 0.000062 & 0.000138 & 0.000258 & 0.000433 & 0.000669 & 0.000978 & 0.001369 & 0.001905 \\
+\hline
+\end{tabular}%
+}
+\caption{Promedios de tiempo en milisegundos usando programación dinámica.}
+\end{table}
+\section{Promedios de tiempo en milisegundos usando greedy}
+
+\begin{table}[H]
+\centering
+\relax
+\resizebox{\textwidth}{!} {%
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+ \multicolumn{10}{|c|}{\textbf{Cantidad de llaves}} \\
+ \hline 
+0 & 10 & 20 & 30 & 40 & 50 & 60 & 70 & 80 & 90 \\
+\hline
+0.000001 & 0.000001 & 0.000002 & 0.000002 & 0.000003 & 0.000003 & 0.000004 & 0.000004 & 0.000005 & 0.000006 \\
+\hline
+\end{tabular}%
+}
+\caption{Promedios de tiempo en milisegundos usando greedy.}
+\end{table}
+\section{Porcentaje de aciertos usando greedy}
+
+\begin{table}[H]
+\centering
+\relax
+\resizebox{\textwidth}{!} {%
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+ \multicolumn{10}{|c|}{\textbf{Cantidad de llaves}} \\
+ \hline 
+0 & 10 & 20 & 30 & 40 & 50 & 60 & 70 & 80 & 90 \\
+\hline
+6.3\% & 0.15\% & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% \\
+\hline
+\end{tabular}%
+}
+\caption{Porcentaje de aciertos usando greedy.}
+\end{table}
+\end{document}

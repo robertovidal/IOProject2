@@ -3,6 +3,7 @@
 #include <time.h>
 #include <string.h>
 #include <ctype.h>
+#include "documento.h"
 
 
 double progDinamica(int numeroLlaves, double *probabilidades, double **tablaA, int ** tablaR){
@@ -95,11 +96,6 @@ void modoEjemplo(){
         sumaProbabilidades += probabilidades[i];
     }
     probabilidades[5] = 1 - sumaProbabilidades;
-    printf("Probabilidades:\n");
-    for(int i = 0; i<6; i++){
-        printf("%f, ", probabilidades[i]);
-    }
-    printf("\n");
     double **tablaA;
     int **tablaR;
     tablaA = (double **) malloc(7 * sizeof(double*));
@@ -114,22 +110,6 @@ void modoEjemplo(){
     resultadoPD = progDinamica(6, probabilidades, tablaA, tablaR);
     clock_t end = clock();
     double tiempo_prog_dinamica = (double)(end - begin) / CLOCKS_PER_SEC;
-    printf("Tabla A:\n");
-    for(int i =0; i<6; i++){
-        for(int j = 0; j<=6; j++){
-            printf("%f, ", tablaA[i][j]);
-        }
-        printf("\n");
-    }
-    printf("Tabla R:\n");
-    for(int i =0; i<6; i++){
-        for(int j = 0; j<=6; j++){
-            printf("%d, ", tablaR[i][j]);
-        }
-        printf("\n");
-    }
-    printf("Tiempo Progra Dinamica: %f\n", tiempo_prog_dinamica);
-    printf("Resultado Progra Dinamica: %f\n", resultadoPD);
     int **tablaRGreedy;
     tablaRGreedy = (int **) malloc(7 * sizeof(int*));
     for (int i = 0; i<7; i++) {
@@ -139,10 +119,53 @@ void modoEjemplo(){
     resultadoGreedy = greedy(6, probabilidades, tablaRGreedy);
     end = clock();
     double tiempo_greedy = (double)(end - begin) / CLOCKS_PER_SEC;
+    crearPdf();
+    crearTituloEjemploProb("Probabilidades", probabilidades);
+    crearTituloEjemplo("Programación dinámica", resultadoPD, tiempo_prog_dinamica);
+    crearTablaEjemploD(tablaA, "Tabla A usando programación dinámica.");
+    crearTablaEjemplo(tablaR, "Tabla R usando programación dinámica.");
+    crearArbolEjemplo(tablaR);
+    crearTituloEjemplo("Greedy", resultadoPD, tiempo_prog_dinamica);
+    crearTablaEjemplo(tablaRGreedy, "Tabla R usando greedy.");
+    crearArbolEjemplo(tablaRGreedy);
+    terminaPdf();
+    printf("Probabilidades:\n");
+    for(int i = 0; i<6; i++){
+        printf("%f", probabilidades[i]);
+        if(i < 5){
+            printf(", ");
+        }
+    }
+    printf("\n");
+    printf("Tabla A:\n");
+    for(int i =0; i<6; i++){
+        for(int j = 0; j<=6; j++){
+            printf("%f", tablaA[i][j]);
+            if(j < 6){
+                printf(", ");
+            }
+        }
+        printf("\n");
+    }
+    printf("Tabla R:\n");
+    for(int i =0; i<6; i++){
+        for(int j = 0; j<=6; j++){
+            printf("%d", tablaR[i][j]);
+            if(j < 6){
+                printf(", ");
+            }
+        }
+        printf("\n");
+    }
+    printf("Tiempo Progra Dinamica: %f\n", tiempo_prog_dinamica);
+    printf("Resultado Progra Dinamica: %f\n", resultadoPD);
     printf("Tabla R Greedy:\n");
     for(int i =0; i<6; i++){
         for(int j = 0; j<=6; j++){
-            printf("%d, ", tablaRGreedy[i][j]);
+            printf("%d", tablaRGreedy[i][j]);
+            if(j < 6){
+                printf(", ");
+            }
         }
         printf("\n");
     }
@@ -209,17 +232,31 @@ void modoExperimento(int n){
         promedioTiemposGreedy[i/10-1] = sumaGreedy/n;
         porcentajeAciertosGreedy[i/10-1] = (double)correctasGreedy * 100 / n;
     }
+    crearPdf();
+    crearTablaExperimento(promedioTiemposDinamica, "Promedios de tiempo en milisegundos", "programación dinámica", 0);
+    crearTablaExperimento(promedioTiemposGreedy, "Promedios de tiempo en milisegundos", "greedy", 0);
+    crearTablaExperimento(porcentajeAciertosGreedy, "Porcentaje de aciertos", "greedy", 1);
+    terminaPdf();   
     printf("El promedio de tiempo que dura la programacion dinamica en milisegundos:\n");
     for(int i = 0; i < 10; i++){
-        printf("%f, ", promedioTiemposDinamica[i]);
+        printf("%f", promedioTiemposDinamica[i]);
+        if(i < 9){
+            printf(", ");
+        }
     }
     printf("\nEl promedio de tiempo que dura el algoritmo greedy en milisegundos:\n");
     for(int i = 0; i < 10; i++){
-        printf("%f, ", promedioTiemposGreedy[i]);
+        printf("%f", promedioTiemposGreedy[i]);
+        if(i < 9){
+            printf(", ");
+        }
     }
     printf("\nEl porcentaje de veces que el greedy acierta:\n");
     for(int i = 0; i < 10; i++){
-        printf("%f, ", porcentajeAciertosGreedy[i]);
+        printf("%f", porcentajeAciertosGreedy[i]);
+        if(i < 9){
+            printf(", ");
+        }
     }
     printf("\n");
     free(tablaA);
@@ -230,8 +267,8 @@ void modoExperimento(int n){
 void mostrarAyuda(){
     printf("Parece que necesitas ayuda.\n\n");
     printf("Comando\tExplicación");
-    printf("\n\n-X\tEl programa resolverá un solo caso aleatorio del problema de los Árboles Binarios de \n\tBúsqueda Óptimos con un algoritmo de programación dinámica y un algoritmo greedy. El\n\tárbol tiene 6 llaves. Cada llave tendrá sus probabilidades aleatorias y tendrá un \n\tvalor ASCII asignado que va de forma ascendente. Se despliega un pdf hecho en Latex \n\tcon los resultados.");
-    printf("\n\n-E=n\tEl programa resolverá 10n casos diferentes del problema de los Árboles Binarios de \n\tBúsqueda Óptimos con un algoritmo de programación dinámica y un algoritmo greedy. \n\tLas llaves del árbol van de 10 hasta 100. Para cada uno de los n casos en la \n\tcantidad de llaves, se generarán aleatoriamente las probabilidades de cada llave, \n\ty la suma de estas probabilidades debe ser 1. Se muestran los resultados de \n\tejecución de los dos algoritmos con tablas de promedios de tiempo de ejecución \n\ty para el greedy se coloca también una tabla con los porcentajes de éxito.\n");
+    printf("\n\n-X\tEl programa resolverá un solo caso aleatorio del problema de los Árboles\n\tBinarios de Búsqueda Óptimos con un algoritmo de programación dinámica y\n\tun algoritmo greedy. El árbol tiene 6 llaves. Cada llave tendrá sus\n\tprobabilidades aleatorias y tendrá un valor ASCII asignado que va de\n\tforma ascendente. Se despliega un pdf hecho en Latex con los resultados.");
+    printf("\n\n-E=n\tEl programa resolverá 10n casos diferentes del problema de los Árboles\n\tBinarios de Búsqueda Óptimos con un algoritmo de programación dinámica y\n\tun algoritmo greedy. Las llaves del árbol van de 10 hasta 100. Para cada\n\tuno de los n casos en la cantidad de llaves, se generarán aleatoriamente\n\tlas probabilidades de cada llave, y la suma de estas probabilidades debe\n\tser 1. Se muestran los resultados de ejecución de los dos algoritmos con\n\ttablas de promedios de tiempo de ejecución y para el greedy se coloca\n\ttambién una tabla con los porcentajes de éxito.\n");
 }
 
 int main(int argc, char *argv[]){
@@ -247,7 +284,11 @@ int main(int argc, char *argv[]){
         int n;
         if(argv[1][0] == '-' && argv[1][1] == 'E' && argv[1][2] == '=' && isdigit(argv[1][3])){
             sscanf(argv[1], "-E=%d", &n);
-            modoExperimento(n);
+            if(n > 0){
+                modoExperimento(n);
+            } else {
+                mostrarAyuda();
+            }
         }
         else{
             mostrarAyuda();
