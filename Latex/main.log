@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2021.5.11)  4 OCT 2021 17:41
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2021.5.7)  9 OCT 2021 15:56
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -6,11 +6,11 @@ LaTeX2e <2017-04-15>
 Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
 Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
-llection.(using write cache: /home/pablix/.texlive2017/texmf-var/luatex-cache/ge
-neric)(using read cache: /var/lib/texmf/luatex-cache/generic /home/pablix/.texli
-ve2017/texmf-var/luatex-cache/generic)
-luaotfload | conf : Root cache directory is /home/pablix/.texlive2017/texmf-var/
-luatex-cache/generic/names.
+llection.(using write cache: /home/roberto/.texlive2017/texmf-var/luatex-cache/g
+eneric)(using read cache: /var/lib/texmf/luatex-cache/generic /home/roberto/.tex
+live2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/roberto/.texlive2017/texmf-var
+/luatex-cache/generic/names.
 luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
 -resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
 -2017-02-11.lua”.
@@ -22,8 +22,8 @@ Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 4
-luaotfload | conf : Root cache directory is /home/pablix/.texlive2017/texmf-var/
-luatex-cache/generic/names.
+luaotfload | conf : Root cache directory is /home/roberto/.texlive2017/texmf-var
+/luatex-cache/generic/names.
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
 Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
@@ -34,15 +34,15 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.112 seconds
+luaotfload | main : initialization completed in 0.095 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/pablix/.texlive2017/texm
-f-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/pablix/.te
-xlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc))
+luaotfload | db : Font names database loaded from /home/roberto/.texlive2017/tex
+mf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/roberto/.
+texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc))
 \c@part=\count79
 \c@section=\count80
 \c@subsection=\count81
@@ -126,87 +126,87 @@ File: switch.def 2018/02/14 3.18 Babel switching mechanism
 \l@dumylang=\language2
 Package babel Info: Non-standard hyphenation setup on input line 113.
 \l@nohyphenation=\language3
-\l@swissgerman=\language4
-\l@hungarian=\language5
-\l@monogreek=\language6
-\l@farsi=\language7
-\l@bulgarian=\language8
-\l@portuguese=\language9
-\l@interlingua=\language10
-\l@romansh=\language11
-\l@turkmen=\language12
-\l@ngerman=\language13
-\l@catalan=\language14
-\l@hindi=\language15
-\l@thai=\language16
-\l@kannada=\language17
-\l@arabic=\language18
-\l@finnish=\language19
-\l@galician=\language20
-\l@swedish=\language21
-\l@icelandic=\language22
-\l@ibycus=\language23
-\l@german-x-2017-03-31=\language24
-\l@basque=\language25
-\l@pinyin=\language26
-\l@ethiopic=\language27
-\l@french=\language28
+\l@polish=\language4
+\l@monogreek=\language5
+\l@croatian=\language6
+\l@thai=\language7
+\l@serbian=\language8
+\l@swedish=\language9
+\l@italian=\language10
+\l@mongolian=\language11
+\l@welsh=\language12
+\l@german-x-2017-03-31=\language13
+\l@piedmontese=\language14
+\l@romansh=\language15
+\l@georgian=\language16
+\l@latin=\language17
+\l@telugu=\language18
+\l@danish=\language19
+\l@coptic=\language20
+\l@malayalam=\language21
+\l@bokmal=\language22
+\l@sanskrit=\language23
+\l@estonian=\language24
+\l@ngerman=\language25
+\l@spanish=\language26
+\l@greek=\language27
+\l@portuguese=\language28
 \l@mongolianlmc=\language29
-\l@marathi=\language30
-\l@nynorsk=\language31
-\l@usenglishmax=\language32
-\l@serbian=\language33
-\l@indonesian=\language34
-\l@afrikaans=\language35
-\l@bokmal=\language36
-\l@irish=\language37
-\l@italian=\language38
-\l@friulan=\language39
-\l@gujarati=\language40
-\l@serbianc=\language41
-\l@romanian=\language42
-\l@panjabi=\language43
-\l@uppersorbian=\language44
-\l@coptic=\language45
-\l@telugu=\language46
-\l@latin=\language47
-\l@ancientgreek=\language48
-\l@liturgicallatin=\language49
-\l@tamil=\language50
-\l@belarusian=\language51
-\l@malayalam=\language52
-\l@sanskrit=\language53
-\l@occitan=\language54
-\l@mongolian=\language55
-\l@greek=\language56
-\l@polish=\language57
-\l@spanish=\language58
-\l@estonian=\language59
-\l@georgian=\language60
-\l@slovenian=\language61
-\l@croatian=\language62
-\l@lithuanian=\language63
-\l@esperanto=\language64
-\l@assamese=\language65
-\l@welsh=\language66
-\l@danish=\language67
+\l@tamil=\language30
+\l@ukrainian=\language31
+\l@russian=\language32
+\l@churchslavonic=\language33
+\l@esperanto=\language34
+\l@slovenian=\language35
+\l@pinyin=\language36
+\l@bulgarian=\language37
+\l@slovak=\language38
+\l@catalan=\language39
+\l@kurmanji=\language40
+\l@occitan=\language41
+\l@kannada=\language42
+\l@swissgerman=\language43
+\l@german=\language44
+\l@ibycus=\language45
+\l@afrikaans=\language46
+\l@uppersorbian=\language47
+\l@marathi=\language48
+\l@basque=\language49
+\l@turkish=\language50
+\l@ethiopic=\language51
+\l@ancientgreek=\language52
+\l@interlingua=\language53
+\l@nynorsk=\language54
+\l@ukenglish=\language55
+\l@finnish=\language56
+\l@french=\language57
+\l@ngerman-x-2017-03-31=\language58
+\l@indonesian=\language59
+\l@panjabi=\language60
+\l@belarusian=\language61
+\l@lithuanian=\language62
+\l@armenian=\language63
+\l@liturgicallatin=\language64
+\l@bengali=\language65
+\l@irish=\language66
+\l@dutch=\language67
 \l@czech=\language68
-\l@ngerman-x-2017-03-31=\language69
-\l@turkish=\language70
-\l@dutch=\language71
-\l@bengali=\language72
-\l@slovak=\language73
-\l@piedmontese=\language74
-\l@oriya=\language75
-\l@armenian=\language76
-\l@kurmanji=\language77
-\l@ukenglish=\language78
-\l@latvian=\language79
-\l@ukrainian=\language80
-\l@russian=\language81
-\l@churchslavonic=\language82
-\l@classiclatin=\language83
-\l@german=\language84
+\l@usenglishmax=\language69
+\l@turkmen=\language70
+\l@serbianc=\language71
+\l@friulan=\language72
+\l@hindi=\language73
+\l@oriya=\language74
+\l@hungarian=\language75
+\l@classiclatin=\language76
+\l@icelandic=\language77
+\l@gujarati=\language78
+\l@assamese=\language79
+\l@galician=\language80
+\l@farsi=\language81
+\l@arabic=\language82
+\l@romanian=\language83
+\l@latvian=\language84
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -1401,11 +1401,31 @@ Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count402
 \cp@tempcnt=\count403
 )
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen283
+\captionmargin@=\dimen284
+\captionwidth=\dimen285
+\caption@tempdima=\dimen286
+\caption@indent=\dimen287
+\caption@parindent=\dimen288
+\caption@hangindent=\dimen289
+)
+\c@ContinuedFloat=\count404
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
 phs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2015/06/05 v3.0.1a (rcs-revision 1.44)
-\tikz@lib@auto@number=\count404
-\tikz@qnode@count=\count405
+\tikz@lib@auto@number=\count405
+\tikz@qnode@count=\count406
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/graphdrawing/tex/tikzlibrarygrap
 hdrawing.code.tex
@@ -1414,7 +1434,7 @@ File: tikzlibrarygraphdrawing.code.tex 2013/08/05 v3.0.1a (rcs-revision 1.20)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrarygraph
 drawing.code.tex
 File: pgflibrarygraphdrawing.code.tex 2015/06/08 v3.0.1a (rcs-revision 1.39)
-\pgf@gd@parameter@stack@height=\count406
+\pgf@gd@parameter@stack@height=\count407
 \pgf@gd@node@box=\box96
 \pgf@gd@edge@box=\box97
 \pgf@gd@prekind@box=\box98
@@ -1423,10 +1443,10 @@ File: pgflibrarygraphdrawing.code.tex 2015/06/08 v3.0.1a (rcs-revision 1.39)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
 code.tex
 File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
-\pgfarrowinset=\dimen283
-\pgfarrowlength=\dimen284
-\pgfarrowwidth=\dimen285
-\pgfarrowlinewidth=\dimen286
+\pgfarrowinset=\dimen290
+\pgfarrowlength=\dimen291
+\pgfarrowwidth=\dimen292
+\pgfarrowlinewidth=\dimen293
 ) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -1435,24 +1455,24 @@ Package: expl3 2018/02/21 L3 programming layer (loader)
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/02/21 L3 programming layer (code)
 \ucharcat@table=\catcodetable5
-\c_max_int=\count407
-\l_tmpa_int=\count408
-\l_tmpb_int=\count409
-\g_tmpa_int=\count410
-\g_tmpb_int=\count411
-\g__intarray_font_int=\count412
-\g__prg_map_int=\count413
-\c_log_iow=\count414
-\l_iow_line_count_int=\count415
-\l__iow_line_target_int=\count416
-\l__iow_one_indent_int=\count417
-\l__iow_indent_int=\count418
-\c_zero_dim=\dimen287
-\c_max_dim=\dimen288
-\l_tmpa_dim=\dimen289
-\l_tmpb_dim=\dimen290
-\g_tmpa_dim=\dimen291
-\g_tmpb_dim=\dimen292
+\c_max_int=\count408
+\l_tmpa_int=\count409
+\l_tmpb_int=\count410
+\g_tmpa_int=\count411
+\g_tmpb_int=\count412
+\g__intarray_font_int=\count413
+\g__prg_map_int=\count414
+\c_log_iow=\count415
+\l_iow_line_count_int=\count416
+\l__iow_line_target_int=\count417
+\l__iow_one_indent_int=\count418
+\l__iow_indent_int=\count419
+\c_zero_dim=\dimen294
+\c_max_dim=\dimen295
+\l_tmpa_dim=\dimen296
+\l_tmpb_dim=\dimen297
+\g_tmpa_dim=\dimen298
+\g_tmpb_dim=\dimen299
 \c_zero_skip=\skip93
 \c_max_skip=\skip94
 \l_tmpa_skip=\skip95
@@ -1465,97 +1485,97 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count419
-\c__fp_leading_shift_int=\count420
-\c__fp_middle_shift_int=\count421
-\c__fp_trailing_shift_int=\count422
-\c__fp_big_leading_shift_int=\count423
-\c__fp_big_middle_shift_int=\count424
-\c__fp_big_trailing_shift_int=\count425
-\c__fp_Bigg_leading_shift_int=\count426
-\c__fp_Bigg_middle_shift_int=\count427
-\c__fp_Bigg_trailing_shift_int=\count428
-\c__fp_rand_size_int=\count429
-\c__fp_rand_four_int=\count430
-\c__fp_rand_eight_int=\count431
-\l__sort_length_int=\count432
-\l__sort_min_int=\count433
-\l__sort_top_int=\count434
-\l__sort_max_int=\count435
-\l__sort_true_max_int=\count436
-\l__sort_block_int=\count437
-\l__sort_begin_int=\count438
-\l__sort_end_int=\count439
-\l__sort_A_int=\count440
-\l__sort_B_int=\count441
-\l__sort_C_int=\count442
-\l__tl_build_start_index_int=\count443
-\l__tl_build_index_int=\count444
-\l__tl_analysis_normal_int=\count445
-\l__tl_analysis_index_int=\count446
-\l__tl_analysis_nesting_int=\count447
-\l__tl_analysis_type_int=\count448
-\l__regex_internal_a_int=\count449
-\l__regex_internal_b_int=\count450
-\l__regex_internal_c_int=\count451
-\l__regex_balance_int=\count452
-\l__regex_group_level_int=\count453
-\l__regex_mode_int=\count454
-\c__regex_cs_in_class_mode_int=\count455
-\c__regex_cs_mode_int=\count456
-\l__regex_catcodes_int=\count457
-\l__regex_default_catcodes_int=\count458
-\c__regex_catcode_L_int=\count459
-\c__regex_catcode_O_int=\count460
-\c__regex_catcode_A_int=\count461
-\c__regex_all_catcodes_int=\count462
-\l__regex_show_lines_int=\count463
-\l__regex_min_state_int=\count464
-\l__regex_max_state_int=\count465
-\l__regex_left_state_int=\count466
-\l__regex_right_state_int=\count467
-\l__regex_capturing_group_int=\count468
-\l__regex_min_pos_int=\count469
-\l__regex_max_pos_int=\count470
-\l__regex_curr_pos_int=\count471
-\l__regex_start_pos_int=\count472
-\l__regex_success_pos_int=\count473
-\l__regex_curr_char_int=\count474
-\l__regex_curr_catcode_int=\count475
-\l__regex_last_char_int=\count476
-\l__regex_case_changed_char_int=\count477
-\l__regex_curr_state_int=\count478
-\l__regex_step_int=\count479
-\l__regex_min_active_int=\count480
-\l__regex_max_active_int=\count481
-\l__regex_replacement_csnames_int=\count482
-\l__regex_match_count_int=\count483
-\l__regex_min_submatch_int=\count484
-\l__regex_submatch_int=\count485
-\l__regex_zeroth_submatch_int=\count486
-\g__regex_trace_regex_int=\count487
+\l_keys_choice_int=\count420
+\c__fp_leading_shift_int=\count421
+\c__fp_middle_shift_int=\count422
+\c__fp_trailing_shift_int=\count423
+\c__fp_big_leading_shift_int=\count424
+\c__fp_big_middle_shift_int=\count425
+\c__fp_big_trailing_shift_int=\count426
+\c__fp_Bigg_leading_shift_int=\count427
+\c__fp_Bigg_middle_shift_int=\count428
+\c__fp_Bigg_trailing_shift_int=\count429
+\c__fp_rand_size_int=\count430
+\c__fp_rand_four_int=\count431
+\c__fp_rand_eight_int=\count432
+\l__sort_length_int=\count433
+\l__sort_min_int=\count434
+\l__sort_top_int=\count435
+\l__sort_max_int=\count436
+\l__sort_true_max_int=\count437
+\l__sort_block_int=\count438
+\l__sort_begin_int=\count439
+\l__sort_end_int=\count440
+\l__sort_A_int=\count441
+\l__sort_B_int=\count442
+\l__sort_C_int=\count443
+\l__tl_build_start_index_int=\count444
+\l__tl_build_index_int=\count445
+\l__tl_analysis_normal_int=\count446
+\l__tl_analysis_index_int=\count447
+\l__tl_analysis_nesting_int=\count448
+\l__tl_analysis_type_int=\count449
+\l__regex_internal_a_int=\count450
+\l__regex_internal_b_int=\count451
+\l__regex_internal_c_int=\count452
+\l__regex_balance_int=\count453
+\l__regex_group_level_int=\count454
+\l__regex_mode_int=\count455
+\c__regex_cs_in_class_mode_int=\count456
+\c__regex_cs_mode_int=\count457
+\l__regex_catcodes_int=\count458
+\l__regex_default_catcodes_int=\count459
+\c__regex_catcode_L_int=\count460
+\c__regex_catcode_O_int=\count461
+\c__regex_catcode_A_int=\count462
+\c__regex_all_catcodes_int=\count463
+\l__regex_show_lines_int=\count464
+\l__regex_min_state_int=\count465
+\l__regex_max_state_int=\count466
+\l__regex_left_state_int=\count467
+\l__regex_right_state_int=\count468
+\l__regex_capturing_group_int=\count469
+\l__regex_min_pos_int=\count470
+\l__regex_max_pos_int=\count471
+\l__regex_curr_pos_int=\count472
+\l__regex_start_pos_int=\count473
+\l__regex_success_pos_int=\count474
+\l__regex_curr_char_int=\count475
+\l__regex_curr_catcode_int=\count476
+\l__regex_last_char_int=\count477
+\l__regex_case_changed_char_int=\count478
+\l__regex_curr_state_int=\count479
+\l__regex_step_int=\count480
+\l__regex_min_active_int=\count481
+\l__regex_max_active_int=\count482
+\l__regex_replacement_csnames_int=\count483
+\l__regex_match_count_int=\count484
+\l__regex_min_submatch_int=\count485
+\l__regex_submatch_int=\count486
+\l__regex_zeroth_submatch_int=\count487
+\g__regex_trace_regex_int=\count488
 \c_empty_box=\box100
 \l_tmpa_box=\box101
 \l_tmpb_box=\box102
 \g_tmpa_box=\box103
 \g_tmpb_box=\box104
-\l__box_top_dim=\dimen293
-\l__box_bottom_dim=\dimen294
-\l__box_left_dim=\dimen295
-\l__box_right_dim=\dimen296
-\l__box_top_new_dim=\dimen297
-\l__box_bottom_new_dim=\dimen298
-\l__box_left_new_dim=\dimen299
-\l__box_right_new_dim=\dimen300
+\l__box_top_dim=\dimen300
+\l__box_bottom_dim=\dimen301
+\l__box_left_dim=\dimen302
+\l__box_right_dim=\dimen303
+\l__box_top_new_dim=\dimen304
+\l__box_bottom_new_dim=\dimen305
+\l__box_left_new_dim=\dimen306
+\l__box_right_new_dim=\dimen307
 \l__box_internal_box=\box105
 \l__coffin_internal_box=\box106
-\l__coffin_internal_dim=\dimen301
-\l__coffin_offset_x_dim=\dimen302
-\l__coffin_offset_y_dim=\dimen303
-\l__coffin_x_dim=\dimen304
-\l__coffin_y_dim=\dimen305
-\l__coffin_x_prime_dim=\dimen306
-\l__coffin_y_prime_dim=\dimen307
+\l__coffin_internal_dim=\dimen308
+\l__coffin_offset_x_dim=\dimen309
+\l__coffin_offset_y_dim=\dimen310
+\l__coffin_x_dim=\dimen311
+\l__coffin_y_dim=\dimen312
+\l__coffin_x_prime_dim=\dimen313
+\l__coffin_y_prime_dim=\dimen314
 \c_empty_coffin=\box107
 \l__coffin_aligned_coffin=\box108
 \l__coffin_aligned_internal_coffin=\box109
@@ -1564,45 +1584,45 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l__coffin_display_coffin=\box112
 \l__coffin_display_coord_coffin=\box113
 \l__coffin_display_pole_coffin=\box114
-\l__coffin_display_offset_dim=\dimen308
-\l__coffin_display_x_dim=\dimen309
-\l__coffin_display_y_dim=\dimen310
-\l__coffin_bounding_shift_dim=\dimen311
-\l__coffin_left_corner_dim=\dimen312
-\l__coffin_right_corner_dim=\dimen313
-\l__coffin_bottom_corner_dim=\dimen314
-\l__coffin_top_corner_dim=\dimen315
-\l__coffin_scaled_total_height_dim=\dimen316
-\l__coffin_scaled_width_dim=\dimen317
+\l__coffin_display_offset_dim=\dimen315
+\l__coffin_display_x_dim=\dimen316
+\l__coffin_display_y_dim=\dimen317
+\l__coffin_bounding_shift_dim=\dimen318
+\l__coffin_left_corner_dim=\dimen319
+\l__coffin_right_corner_dim=\dimen320
+\l__coffin_bottom_corner_dim=\dimen321
+\l__coffin_top_corner_dim=\dimen322
+\l__coffin_scaled_total_height_dim=\dimen323
+\l__coffin_scaled_width_dim=\dimen324
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count488
+\l__driver_color_stack_int=\count489
 \l__driver_tmp_box=\box115
 ))
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count489
-\g__xparse_grabber_int=\count490
-\l__xparse_m_args_int=\count491
-\l__xparse_mandatory_args_int=\count492
-\l__xparse_v_nesting_int=\count493
+\l__xparse_current_arg_int=\count490
+\g__xparse_grabber_int=\count491
+\l__xparse_m_args_int=\count492
+\l__xparse_mandatory_args_int=\count493
+\l__xparse_v_nesting_int=\count494
 )
 Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
 Lua module: fontspec 2017/11/09 2.6g Font selection for XeLaTeX and LuaLaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count494
-\l__fontspec_language_int=\count495
-\l__fontspec_strnum_int=\count496
-\l__fontspec_tmp_int=\count497
-\l__fontspec_em_int=\count498
-\l__fontspec_emdef_int=\count499
-\l__fontspec_strong_int=\count500
-\l__fontspec_strongdef_int=\count501
-\l__fontspec_tmpa_dim=\dimen318
-\l__fontspec_tmpb_dim=\dimen319
-\l__fontspec_tmpc_dim=\dimen320
+\l__fontspec_script_int=\count495
+\l__fontspec_language_int=\count496
+\l__fontspec_strnum_int=\count497
+\l__fontspec_tmp_int=\count498
+\l__fontspec_em_int=\count499
+\l__fontspec_emdef_int=\count500
+\l__fontspec_strong_int=\count501
+\l__fontspec_strongdef_int=\count502
+\l__fontspec_tmpa_dim=\dimen325
+\l__fontspec_tmpb_dim=\dimen326
+\l__fontspec_tmpc_dim=\dimen327
 \g__file_internal_ior=\read4
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
@@ -1790,9 +1810,9 @@ LaTeX Info: Redefining \scshape on input line 3635.
 LaTeX Info: Redefining \upshape on input line 3640.
 LaTeX Info: Redefining \em on input line 3670.
 LaTeX Info: Redefining \emph on input line 3695.
-(load luc: /home/pablix/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lm
-romandemi10-regular.luc)(load luc: /home/pablix/.texlive2017/texmf-var/luatex-ca
-che/generic/fonts/otl/lmroman10-italic.luc)
+(load luc: /home/roberto/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/l
+mromandemi10-regular.luc)(load luc: /home/roberto/.texlive2017/texmf-var/luatex-
+cache/generic/fonts/otl/lmroman10-italic.luc)
 LaTeX Info: Redefining \- on input line 3749.
 .................................................
 . LaTeX info: "xparse/redefine-command"
@@ -1805,15 +1825,15 @@ LaTeX Info: Redefining \- on input line 3749.
 . Defining command \liningnums with sig. 'm' on line 3848.
 .................................................
 ))
-luaotfload | cache : Lookup cache loaded from /home/pablix/.texlive2017/texmf-va
-r/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: /home/pablix
-/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/texgyrepagella-regular.lu
-c)
-\g__fontspec_family_TeXGyrePagella_int=\count502
-(load luc: /home/pablix/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/te
-xgyrepagella-bolditalic.luc)(load luc: /home/pablix/.texlive2017/texmf-var/luate
-x-cache/generic/fonts/otl/texgyrepagella-bold.luc)(load luc: /home/pablix/.texli
-ve2017/texmf-var/luatex-cache/generic/fonts/otl/texgyrepagella-italic.luc)
+luaotfload | cache : Lookup cache loaded from /home/roberto/.texlive2017/texmf-v
+ar/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: /home/rober
+to/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/texgyrepagella-regular.
+luc)
+\g__fontspec_family_TeXGyrePagella_int=\count503
+(load luc: /home/roberto/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/t
+exgyrepagella-bolditalic.luc)(load luc: /home/roberto/.texlive2017/texmf-var/lua
+tex-cache/generic/fonts/otl/texgyrepagella-bold.luc)(load luc: /home/roberto/.te
+xlive2017/texmf-var/luatex-cache/generic/fonts/otl/texgyrepagella-italic.luc)
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1987,7 +2007,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count503
+\c@section@level=\count504
 )
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
@@ -2000,16 +2020,16 @@ LaTeX Info: Redefining \nameref on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count504
-\scratchdimen=\dimen321
+\scratchcounter=\count505
+\scratchdimen=\dimen328
 \scratchbox=\box117
-\nofMPsegments=\count505
-\nofMParguments=\count506
+\nofMPsegments=\count506
+\nofMParguments=\count507
 \everyMPshowfont=\toks60
-\MPscratchCnt=\count507
-\MPscratchDim=\dimen322
-\MPnumerator=\count508
-\makeMPintoPDFobject=\count509
+\MPscratchCnt=\count508
+\MPscratchDim=\dimen329
+\MPnumerator=\count509
+\makeMPintoPDFobject=\count510
 \everyMPtoPDFconversion=\toks61
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -2028,7 +2048,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-\c@lstlisting=\count510
+\c@lstlisting=\count511
 
 ABD: EveryShipout initializing macros
 Package biblatex Info: LuaTeX detected.
@@ -2043,6 +2063,8 @@ Package biblatex Info: ... file 'main.bbl' not found.
 No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 3.
 Package biblatex Info: Reference segment=0 on input line 3.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -2639,6 +2661,10 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 40.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 40.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 42.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 42.
 Package microtype Info: Character `ﬆ' is missing
 (microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2724,53 +2750,61 @@ Package microtype Info: Character `―' is missing
 (microtype)             in font `TU/TeXGyrePagella(0)/b/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 98.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 98.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 125.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 125.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 125.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 94.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 94.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 125.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 130.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 130.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 130.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 130.
+ [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3BBB7F3C649C455D8DD090AA11DEFA6C;256.
+(rerunfilecheck)             Checksum: 091D88768A571BC7EEBD95632407FC19;148.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44489 strings out of 494480
+ 45762 strings out of 494480
  100000,1648299 words of node,token memory allocated
- 622 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 7 attribute, 78 glue_spec, 7 attrib
+ 631 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 8 attribute, 79 glue_spec, 8 attrib
 ute_list, 1 write nodes
-   avail lists: 1:8,2:770,3:76,4:31,5:160,6:893,7:656,8:217,9:221,10:4,11:92
- 47077 multiletter control sequences out of 65536+600000
+   avail lists: 1:12,2:2351,3:233,4:116,5:353,6:827,7:1727,8:474,9:389,10:5,11:6
+3
+ 48335 multiletter control sequences out of 65536+600000
  56 fonts using 8729655 bytes
- 64i,11n,71p,1088b,1633s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 64i,11n,92p,1088b,1833s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-bold.otf></usr/s
-hare/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-regular.otf>
-Output written on main.pdf (1 page, 14456 bytes).
+hare/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-regular.otf></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on main.pdf (2 pages, 35901 bytes).
 
-PDF statistics: 46 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 131072)
+PDF statistics: 58 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 131072)
  40 words of extra memory for PDF output out of 10000 (max. 100000000)
 

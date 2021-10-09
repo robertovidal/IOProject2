@@ -75,6 +75,9 @@ double calcularGreedy(int posInicio, int posFinal, double *probabilidades, int n
 }
 
 double greedy(int numeroLlaves, double *probabilidades, int **solucion){
+    for(int i = 0; i<numeroLlaves; i++){
+        solucion[i][i+1] = i+1;
+    }
     double result = calcularGreedy(0, numeroLlaves-1, probabilidades, 1, solucion);
     return result;
 }
@@ -125,7 +128,7 @@ void modoEjemplo(){
     crearTablaEjemploD(tablaA, "Tabla A usando programación dinámica.");
     crearTablaEjemplo(tablaR, "Tabla R usando programación dinámica.");
     crearArbolEjemplo(tablaR);
-    crearTituloEjemplo("Greedy", resultadoPD, tiempo_prog_dinamica);
+    crearTituloEjemplo("Greedy", resultadoGreedy, tiempo_greedy);
     crearTablaEjemplo(tablaRGreedy, "Tabla R usando greedy.");
     crearArbolEjemplo(tablaRGreedy);
     terminaPdf();
@@ -236,7 +239,7 @@ void modoExperimento(int n){
     crearTablaExperimento(promedioTiemposDinamica, "Promedios de tiempo en milisegundos", "programación dinámica", 0);
     crearTablaExperimento(promedioTiemposGreedy, "Promedios de tiempo en milisegundos", "greedy", 0);
     crearTablaExperimento(porcentajeAciertosGreedy, "Porcentaje de aciertos", "greedy", 1);
-    terminaPdf();   
+    terminaPdf();
     printf("El promedio de tiempo que dura la programacion dinamica en milisegundos:\n");
     for(int i = 0; i < 10; i++){
         printf("%f", promedioTiemposDinamica[i]);

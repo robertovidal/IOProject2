@@ -19,9 +19,9 @@ Roberto Vidal Patiño, 2019065537% Your name, your matriculation number
 \begin{minipage}{0.4\textwidth} % Center of title section
 \centering 
 \large % Title text size
-Proyecto 1\\ % Assignment title and number
+Proyecto 2\\ % Assignment title and number
 \normalsize % Subtitle text size
-Mochila Dinámica vs. MochilaGreedy\\ % Assignment subtitle
+A.B.B Dinámico vs A.B.B Greedy\\ % Assignment subtitle
 \end{minipage}
 \begin{minipage}{0.295\textwidth} % Right side of title section
 \raggedleft
@@ -37,58 +37,94 @@ robertovidal@estudiantec.cr% Your email
 %-------------------------------
 %	CONTENTS
 %-------------------------------
-\section{Promedios de tiempo en milisegundos usando programación dinámica}
+\section{Probabilidades}
+$$A = 0.109476,\;B = 0.22793,\;C = 0.160848,\;D = 0.177307,\;E = 0.158603,\;F = 0.165835$$
+\section{Programación dinámica}
+\textbf{Resultado:} 2.251621
+
+\textbf{Tiempo:} 0.000009
 
 \begin{table}[H]
 \centering
 \relax
-\resizebox{\textwidth}{!} {%
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
- \multicolumn{10}{|c|}{\textbf{Cantidad de llaves}} \\
- \hline 
-0 & 10 & 20 & 30 & 40 & 50 & 60 & 70 & 80 & 90 \\
+ & 0\cellcolor{blue!20} & 1\cellcolor{blue!20} & 2\cellcolor{blue!20} & 3\cellcolor{blue!20} & 4\cellcolor{blue!20} & 5\cellcolor{blue!20} & 6\cellcolor{blue!20} \\
 \hline
-0.000004 & 0.000021 & 0.000062 & 0.000138 & 0.000258 & 0.000433 & 0.000669 & 0.000978 & 0.001369 & 0.001905 \\
+1\cellcolor{blue!20} & 0 & 0.109476 & 0.446883 & 0.768579 & 1.28404 & 1.75985 & 2.251621 \\
 \hline
-\end{tabular}%
-}
-\caption{Promedios de tiempo en milisegundos usando programación dinámica.}
+2\cellcolor{blue!20} &  & 0 & 0.22793 & 0.549626 & 0.971322 & 1.432918 & 1.923192 \\
+\hline
+3\cellcolor{blue!20} &  &  & 0 & 0.160848 & 0.499002 & 0.816209 & 1.306484 \\
+\hline
+4\cellcolor{blue!20} &  &  &  & 0 & 0.177307 & 0.494514 & 0.844888 \\
+\hline
+5\cellcolor{blue!20} &  &  &  &  & 0 & 0.158603 & 0.483042 \\
+\hline
+6\cellcolor{blue!20} &  &  &  &  &  & 0 & 0.165835 \\
+\hline
+\end{tabular}
+\caption{Tabla A usando programación dinámica.}
 \end{table}
-\section{Promedios de tiempo en milisegundos usando greedy}
+
 
 \begin{table}[H]
 \centering
 \relax
-\resizebox{\textwidth}{!} {%
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
- \multicolumn{10}{|c|}{\textbf{Cantidad de llaves}} \\
- \hline 
-0 & 10 & 20 & 30 & 40 & 50 & 60 & 70 & 80 & 90 \\
+ & 0\cellcolor{blue!20} & 1\cellcolor{blue!20} & 2\cellcolor{blue!20} & 3\cellcolor{blue!20} & 4\cellcolor{blue!20} & 5\cellcolor{blue!20} & 6\cellcolor{blue!20} \\
 \hline
-0.000001 & 0.000001 & 0.000002 & 0.000002 & 0.000003 & 0.000003 & 0.000004 & 0.000004 & 0.000005 & 0.000006 \\
+1\cellcolor{blue!20} & 0 & 1 & 2 & 2 & 2 & 2 & 4 \\
 \hline
-\end{tabular}%
-}
-\caption{Promedios de tiempo en milisegundos usando greedy.}
+2\cellcolor{blue!20} &  & 0 & 2 & 2 & 3 & 4 & 4 \\
+\hline
+3\cellcolor{blue!20} &  &  & 0 & 3 & 4 & 4 & 4 \\
+\hline
+4\cellcolor{blue!20} &  &  &  & 0 & 4 & 4 & 5 \\
+\hline
+5\cellcolor{blue!20} &  &  &  &  & 0 & 5 & 6 \\
+\hline
+6\cellcolor{blue!20} &  &  &  &  &  & 0 & 6 \\
+\hline
+\end{tabular}
+\caption{Tabla R usando programación dinámica.}
 \end{table}
-\section{Porcentaje de aciertos usando greedy}
+\begin{center}
+\begin{tikzpicture}[>=Stealth]
+\graph[binary tree layout]{"$D$"->{{"$B$"->{{"$A$"},{"$C$"}}},{"$E$"->{,{"$F$"}}}}};
+\end{tikzpicture}
+\end{center}
+\section{Greedy}
+\textbf{Resultado:} 2.41596
+
+\textbf{Tiempo:} 0.000004
 
 \begin{table}[H]
 \centering
 \relax
-\resizebox{\textwidth}{!} {%
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
- \multicolumn{10}{|c|}{\textbf{Cantidad de llaves}} \\
- \hline 
-0 & 10 & 20 & 30 & 40 & 50 & 60 & 70 & 80 & 90 \\
+ & 0\cellcolor{blue!20} & 1\cellcolor{blue!20} & 2\cellcolor{blue!20} & 3\cellcolor{blue!20} & 4\cellcolor{blue!20} & 5\cellcolor{blue!20} & 6\cellcolor{blue!20} \\
 \hline
-6.3\% & 0.15\% & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% \\
+1\cellcolor{blue!20} & 0 & 1 & 0 & 0 & 0 & 0 & 2 \\
 \hline
-\end{tabular}%
-}
-\caption{Porcentaje de aciertos usando greedy.}
+2\cellcolor{blue!20} &  & 0 & 2 & 0 & 0 & 0 & 0 \\
+\hline
+3\cellcolor{blue!20} &  &  & 0 & 3 & 0 & 0 & 4 \\
+\hline
+4\cellcolor{blue!20} &  &  &  & 0 & 4 & 0 & 0 \\
+\hline
+5\cellcolor{blue!20} &  &  &  &  & 0 & 5 & 6 \\
+\hline
+6\cellcolor{blue!20} &  &  &  &  &  & 0 & 6 \\
+\hline
+\end{tabular}
+\caption{Tabla R usando greedy.}
 \end{table}
+\begin{center}
+\begin{tikzpicture}[>=Stealth]
+\graph[binary tree layout]{"$B$"->{{"$A$"},{"$D$"->{{"$C$"},{"$F$"->{{"$E$"}}}}}}};
+\end{tikzpicture}
+\end{center}
 \end{document}
