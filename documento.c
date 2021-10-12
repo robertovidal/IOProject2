@@ -56,7 +56,7 @@ void crearTablaExperimento(double lista[10], char tipoTabla[], char nombre[], in
     for(int i = 0; i < 2; i++){
         for(int j = 0; j < 10; j++){
             if(i == 0){
-                sprintf(numeroInt, "%d", j*10);
+                sprintf(numeroInt, "%d", (j+1)*10);
                 fputs(numeroInt, archivo);
             } else {
                 sprintf(numeroDouble, "%f", lista[j]);
